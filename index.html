@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eyan Consultancy - 15+ Years of Excellence in Engineering & Project Consultancy">
+    <meta name="keywords" content="Engineering Consultancy, Architecture, Infrastructure, Project Management">
+    <meta name="author" content="Eyan Consultancy">
+    <title>Eyan Consultancy - Engineering & Project Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon"><img src="logo.png" alt=""></span>
+                <div class="logo-text-wrapper">
+                    <span class="logo-text">Eyan Consultancy</span>
+                    <span class="tagline">We Build Your Dreams</span>
+                </div>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#services" class="nav-link" data-section="services">Services</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">15+ Years of Excellence in Engineering & Project Consultancy</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Trusted partner for infrastructure, architecture and project management solutions.</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                <button class="btn btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">Contact Us</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-aos="fade-up">About Eyan Consultancy</h2>
+                <div class="header-underline"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>With over 15 years of dedicated experience in engineering, architecture, and project consultancy, Eyan Consultancy has established itself as a trusted partner for organizations seeking excellence and innovation.</p>
+                    <p>Our team of seasoned professionals brings comprehensive expertise across infrastructure development, architectural planning, structural design, and complete project management solutions. We pride ourselves on delivering projects on time, within budget, and exceeding client expectations.</p>
+                    <p>Delivering Excellence Through Experience and Innovation</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card" data-aos="fade-up">
+                        <div class="stat-number" data-target="15">0</div>
+                        <span class="stat-suffix">+</span>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-number" data-target="17">0</div>
+                        <span class="stat-suffix">+</span>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-number" data-target="9">0</div>
+                        <span class="stat-suffix">+</span>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Our Services</h2>
+                <div class="header-underline"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Comprehensive solutions tailored to your project needs</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"></path>
+                        </svg>
+                    </div>
+                    <h3>Project Consultancy</h3>
+                    <p>Expert guidance through every phase of your project lifecycle, from conception to completion.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+                            <polyline points="12 12 20 7.5"></polyline>
+                            <polyline points="12 12 12 21"></polyline>
+                            <polyline points="12 12 4 7.5"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Engineering Solutions</h3>
+                    <p>Cutting-edge engineering expertise across civil, mechanical, and infrastructure projects.</p>
+                </div>
+
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Project Management</h3>
+                    <p>End-to-end project management ensuring timely delivery and optimal resource utilization.</p>
+                </div>
+
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"></path>
+                            <path d="M16.3 7.7L12.5 11.5M12.5 11.5L7.7 16.3"></path>
+                        </svg>
+                    </div>
+                    <h3>Infrastructure Development</h3>
+                    <p>Comprehensive infrastructure solutions for sustainable and efficient project implementation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Major Projects</h2>
+                <div class="header-underline"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Showcase of our expertise and successful deliveries</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="new parliyament.webp" alt="Parliament Building Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>Parliament Building</h3>
+                        <p class="project-location">📍 New Delhi</p>
+                        <p class="project-description">The New Parliament Building of India, inaugurated in May 2023 under the Central Vista Redevelopment Project, is a triangular, four-storey legislative complex engineered to modernize India’s democratic governance. Located adjacent to the heritage circular parliament building in New Delhi, this 64,500 square meter infrastructure was built by Tata Projects and designed by architect Bimal Patel to accommodate future legislative expansion.</p>
+                        <div class="project-tags">
+                            <span class="tag">Government</span>
+                            <span class="tag">Infrastructure</span>
+                            <span class="tag">Architectural</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="WorldTowers_context-day_cLodhaGroup_crop.max-1600x1600.jpg" alt="Future Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>The World Towers</h3>
+                        <p class="project-location">📍 Mumbai</p>
+                        <p class="project-description">The Lodha World Towers is a 5,000-crore ultra-luxury residential development spanning a 17-acre land parcel on the Mumbai Mile in Lower Parel / Worli. It consists of three uniquely curvilinear glass-and-steel skyscrapers: World One, World View, and World Crest</p>
+                        <div class="project-tags">
+                            <span class="tag">Designers</span>
+                            <span class="tag">Apartments</span>
+                            <span class="tag">Club W</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="dgp office.jpg" alt="dgp office">
+                    </div>
+                    <div class="project-content">
+                        <h3>The DGP Maharashtra</h3>
+                        <p class="project-location">📍Naval Dockyard Mumbai </p>
+                        <p class="project-description">Office designs and constructs mega marine infrastructure, including massive aircraft carrier dry docks, deep harbor berthing jetties, and automated logistics yards. It also modernizes dockyard capabilities by building advanced weapons testing bays and integrating smart digital tracking systems for next-generation naval ship refits.</p>
+                        <div class="project-tags">
+                            <span class="tag">Dry Docks & Jetties</span>
+                            <span class="tag">Smart Yard / ICT</span>
+                            <span class="tag">SRGM (Super Rapid Gun Mount)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- On Going Projects Section -->
+    <section id="ongoing-projects" class="ongoing-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-aos="fade-up">On Going Projects</h2>
+                <div class="header-underline"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Projects currently under development</p>
+                <h3>Kalhar Greens</h3>
+                <p class="project-location">📍 Viramgam</p>
+            </div>
+                    <div class="ongoing-project-info">
+                        <h2>Quality of work</h2>    
+                    </div>
+            <div class="ongoing-grid">
+                <!-- Project 1 -->
+                <div class="ongoing-project-card" data-aos="fade-up">
+                    <div class="ongoing-project-image">
+                        <img src="ONGP1.jpeg" alt="Kalhar Greens, Viramgam">
+                    </div>
+                    <div class="ongoing-project-info">
+
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="ongoing-project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="ongoing-project-image">
+                        <img src="ONGP2.png" alt="Project 2">
+                    </div>
+                    <!-- <div class="ongoing-project-info">
+                        <h3>Project Name</h3>
+                        <p class="project-location">📍 Location</p>
+                    </div> -->
+                </div>
+
+                <!-- Project 3 -->
+                <div class="ongoing-project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="ongoing-project-image">
+                        <img src="ONGP3.png" alt="Project 3">
+                    </div>
+                    <!-- <div class="ongoing-project-info">
+                        <h3>Project Name</h3>
+                        <p class="project-location">📍 Location</p>
+                    </div> -->
+                </div>
+
+                <!-- Project 4 -->
+                <div class="ongoing-project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="ongoing-project-image">
+                        <img src="ONGP4.png" alt="Project 4">
+                    </div>
+                    <!-- <div class="ongoing-project-info">
+                        <h3>Project Name</h3>
+                        <p class="project-location">📍 Location</p>
+                    </div> -->
+                </div>
+
+                <!-- Project 5 -->
+                <div class="ongoing-project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="ongoing-project-image">
+                        <img src="ONGP5.png" alt="Project 5">
+                    </div>
+                    <!-- <div class="ongoing-project-info">
+                        <h3>Project Name</h3>
+                        <p class="project-location">📍 Location</p>
+                    </div> -->
+                </div>
+
+                <!-- Project 6 -->
+                <div class="ongoing-project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="ongoing-project-image">
+                        <img src="ONGP6.png" alt="Project 6">
+                    </div>
+                    <!-- <div class="ongoing-project-info">
+                        <h3>Project Name</h3>
+                        <p class="project-location">📍 Location</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Why Choose Eyan Consultancy</h2>
+                <div class="header-underline"></div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-item" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <span class="icon-number">01</span>
+                    </div>
+                    <h3>15+ Years Experience</h3>
+                    <p>Proven track record of successful projects and satisfied clients across multiple industries and sectors.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <span class="icon-number">02</span>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>Highly qualified professionals with deep expertise in engineering, architecture, and project management.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <span class="icon-number">03</span>
+                    </div>
+                    <h3>Timely Delivery</h3>
+                    <p>Committed to completing projects on schedule while maintaining the highest quality standards.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <span class="icon-number">04</span>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>Rigorous quality control processes ensure every project meets and exceeds industry standards.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <span class="icon-number">05</span>
+                    </div>
+                    <h3>Client Satisfaction</h3>
+                    <p>Your success is our success. We prioritize understanding and exceeding client expectations.</p>
+                </div>
+
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <span class="icon-number">06</span>
+                    </div>
+                    <h3>Innovative Solutions</h3>
+                    <p>Staying ahead with latest technologies and methodologies for optimal project outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Client Testimonials</h2>
+                <div class="header-underline"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">What our clients say about us</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-header">
+                        <div class="stars">★★★★★</div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <p class="testimonial-text">Eyan Consultancy's expertise and dedication were instrumental in the success of our infrastructure project. Their attention to detail and commitment to excellence is remarkable.</p>
+                    <div class="testimonial-author">
+                        <h4>Rajesh Kumar</h4>
+                        <p>Project Director, Government Infrastructure</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-header">
+                        <div class="stars">★★★★★</div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <p class="testimonial-text">Working with Eyan Consultancy was a game-changer for our project. Their strategic approach and technical expertise helped us achieve our goals ahead of schedule.</p>
+                    <div class="testimonial-author">
+                        <h4>Priya Singh</h4>
+                        <p>Managing Director, Real Estate Development</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-header">
+                        <div class="stars">★★★★★</div>
+                        <div class="quote-icon">"</div>
+                    </div>
+                    <p class="testimonial-text">The team's professionalism and ability to handle complex projects with ease is outstanding. They exceeded our expectations on every front.</p>
+                    <div class="testimonial-author">
+                        <h4>Amit Patel</h4>
+                        <p>CEO, Commercial Development Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-aos="fade-up">Get In Touch</h2>
+                <div class="header-underline"></div>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Let's discuss your project requirements</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 8433556944</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:patelyog91@outlook.com">patelyog91@outlook.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">f</a>
+                            <a href="#" class="social-icon">in</a>
+                            <a href="#" class="social-icon">tw</a>
+                            <a href="#" class="social-icon">ig</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-note">We'll get back to you within 24 hours.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Eyan Consultancy is a leading engineering and project consultancy firm with 15+ years of experience delivering excellence.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Project Consultancy</a></li>
+                        <li><a href="#services">Architecture Planning</a></li>
+                        <li><a href="#services">Structural Design</a></li>
+                        <li><a href="#services">Project Management</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: patelyog91@outlook.com</p>
+                    <p>Phone: +91 8433556944</p>
+                    <!-- <p>Address: 123 Consultancy Plaza, New Delhi</p> -->
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Eyan Consultancy. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="Go to top">
+        <span>↑</span>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
